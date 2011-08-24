@@ -4,11 +4,13 @@ The Demo should be 100% self contained, and should build and run wihtout any fus
 
 ##Resources
 Nancy:
+
 * https://github.com/NancyFx
 * @TheCodeJunkie and @Grumpydev on Twitter
 * http://groups.google.com/group/nancy-web-framework
 
 Simple.Data:
+
 * https://github.com/markrendle/Simple.Data
 * @MarkRendle on Twitter
 * http://groups.google.com/group/simpledata
