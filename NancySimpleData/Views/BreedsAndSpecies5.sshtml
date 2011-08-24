@@ -1,0 +1,49 @@
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>All breeds</title>
+		<link href="/resources/style.css" type="text/css" rel="stylesheet" />
+		<script src="/resources/jquery.js"></script>
+		<script>
+            $(document).ready(function () {
+                $("#specieslist").change(function () {
+                    $.getJSON("/6/" + $(this).val(), function (data) {
+                        var html = "";
+                        $.each(data.Breeds, function (key, breed) {
+                            html = html + '<tr><td>' + breed.SpeciesName + '</a></td>';
+                            html = html + '<td>' + breed.BreedName + '</td></tr>';
+                        });
+                        $("#listbody").html(html);
+                        $("#title").html(data.Title);
+                    });
+                });
+            });
+        </script>
+	<body>
+        <div id="content">    
+            <h1 id="title">@Model.Title</h1>    
+			<select id="specieslist">
+				<option value="null">All species</option>
+				@Each.Species
+					<option value="@Current.id">@Current.SpeciesName</option>
+				@EndEach
+			</select>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Species</th>
+                        <th>Breed</th>
+                    </tr>
+                </thead>
+                <tbody id="listbody">
+                    @Each.Breeds
+                    <tr>
+					    <td>@Current.SpeciesName</td> 
+                        <td>@Current.BreedName</td>
+                    </tr>
+                    @EndEach
+                </tbody>
+            </table>
+        </div>	    
+	</body>
+</html>

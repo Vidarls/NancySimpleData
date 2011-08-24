@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancySimpleData", "NancySimpleData\NancySimpleData.csproj", "{8550AE15-2C45-4D76-BE12-415806E18A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancySimpleData.Test", "NancySimpleData.Test\NancySimpleData.Test.csproj", "{0F29D708-7239-4D88-8BBD-6679C8529D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancySimpleData.Host", "NancySimpleData.Host\NancySimpleData.Host.csproj", "{33D18279-1DFF-4EA0-B25D-55F577A9FC27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{7965B4E9-F247-4C79-BD1B-DF59D2F8804A}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\HelloWorldModule.cs = NancySimpleData\HelloWorldModule.cs
+		NancySimpleData.Test\HelloWorldTest.cs = NancySimpleData.Test\HelloWorldTest.cs
+		NancySimpleData.WcfHost\Program.cs = NancySimpleData.WcfHost\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2", "2", "{A0C5845B-39C4-4C4E-A20F-4B133C9EA364}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\BreedsAndSpecies1.cs = NancySimpleData\BreedsAndSpecies1.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3", "3", "{E4714D51-C3BF-4225-9C6D-8172602C2C0C}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\BreedsAndSpecies2.cs = NancySimpleData\BreedsAndSpecies2.cs
+		NancySimpleData\Views\BreedsAndSpecies2.sshtml = NancySimpleData\Views\BreedsAndSpecies2.sshtml
+		NancySimpleData\Views\BreedsAndSpecies2TableView.sshtml = NancySimpleData\Views\BreedsAndSpecies2TableView.sshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4", "4", "{0683DFA1-7063-4C07-AAA5-E9727548E625}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\BreedsAndSpecies3.cs = NancySimpleData\BreedsAndSpecies3.cs
+		NancySimpleData\Views\BreedsAndSpecies3.sshtml = NancySimpleData\Views\BreedsAndSpecies3.sshtml
+		NancySimpleData\Resources.cs = NancySimpleData\Resources.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5", "5", "{46C7A785-5BF9-49DC-BDE3-EADB85667757}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\BreedsAndSpecies4.cs = NancySimpleData\BreedsAndSpecies4.cs
+		NancySimpleData\Views\BreedsAndSpecies4.sshtml = NancySimpleData\Views\BreedsAndSpecies4.sshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6", "6", "{6D33326D-9BDC-43AF-A22D-E507811B4C97}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\BreedsAndSpecies5.cs = NancySimpleData\BreedsAndSpecies5.cs
+		NancySimpleData\Views\BreedsAndSpecies5.sshtml = NancySimpleData\Views\BreedsAndSpecies5.sshtml
+		NancySimpleData\Resources.cs = NancySimpleData\Resources.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7", "7", "{710321E0-79C1-420E-8393-AA595495C14F}"
+	ProjectSection(SolutionItems) = preProject
+		NancySimpleData\BreedsAndSpecies6.cs = NancySimpleData\BreedsAndSpecies6.cs
+		NancySimpleData\Views\BreedsAndSpecies6BreedList.sshtml = NancySimpleData\Views\BreedsAndSpecies6BreedList.sshtml
+		NancySimpleData\Views\BreedsAndSpecies6Form.sshtml = NancySimpleData\Views\BreedsAndSpecies6Form.sshtml
+		NancySimpleData\Views\BreedsAndSpecies6MasterPage.sshtml = NancySimpleData\Views\BreedsAndSpecies6MasterPage.sshtml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancySimpleData.WcfHost", "NancySimpleData.WcfHost\NancySimpleData.WcfHost.csproj", "{187406A5-732A-4AFE-A5AA-00ABCF105121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8550AE15-2C45-4D76-BE12-415806E18A10}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F29D708-7239-4D88-8BBD-6679C8529D10}.Release|x86.ActiveCfg = Release|Any CPU
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Debug|x86.ActiveCfg = Debug|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Debug|x86.Build.0 = Debug|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Release|Any CPU.ActiveCfg = Release|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Release|Mixed Platforms.Build.0 = Release|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Release|x86.ActiveCfg = Release|x86
+		{33D18279-1DFF-4EA0-B25D-55F577A9FC27}.Release|x86.Build.0 = Release|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Debug|x86.ActiveCfg = Debug|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Debug|x86.Build.0 = Debug|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Release|Any CPU.ActiveCfg = Release|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Release|Mixed Platforms.Build.0 = Release|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Release|x86.ActiveCfg = Release|x86
+		{187406A5-732A-4AFE-A5AA-00ABCF105121}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

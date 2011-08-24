@@ -1,0 +1,27 @@
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>All breeds</title>
+		<link href="/resources/style.css" type="text/css" rel="stylesheet" />
+	<body>
+        <div id="content">    
+            <h1>@Model.Title</h1>    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Species</th>
+                        <th>Breed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Each.Breeds
+                    <tr>
+					    <td><a href="/5/@Current.SpeciesName">@Current.SpeciesName</td> 
+                        <td>@Current.BreedName</td>
+                    </tr>
+                    @EndEach
+                </tbody>
+            </table>
+        </div>	    
+	</body>
+</html>

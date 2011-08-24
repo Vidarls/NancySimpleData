@@ -1,0 +1,54 @@
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>All breeds</title>
+        <style>
+            body 
+            {
+                font-family:Verdana, Arial, sans-serif;
+            }
+            h1 
+            {
+                font-family:Georgia, "Times New Roman", serif;
+				font-weight:normal;
+            }
+            #content 
+            {
+				width:500px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+
+			#content table 
+			{
+				width:100%;
+			}
+
+			#content th 
+			{
+				text-align:left;
+			}
+        </style>
+	</head>
+	<body>
+        <div id="content">    
+            <h1>All breeds</h1>    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Species</th>
+                        <th>Breed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Each
+                    <tr>
+                        <td>@Current.SpeciesName</td> 
+                        <td>@Current.BreedName</td>
+                    </tr>
+                    @EndEach
+                </tbody>
+            </table>
+        </div>	    
+	</body>
+</html>

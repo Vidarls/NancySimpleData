@@ -1,0 +1,28 @@
+﻿@Master['BreedsAndSpecies6MasterPage']
+
+@Section['Content']
+<select id="specieslist">
+	<option value="null">All species</option>
+	@Each.Species
+		<option value="@Current.id">@Current.SpeciesName</option>
+	@EndEach
+</select>
+<table>
+    <thead>
+        <tr>
+            <th>Species</th>
+            <th>Breed</th>
+        </tr>
+    </thead>
+    <tbody id="listbody">
+        @Each.Breeds
+        <tr>
+			<td>@Current.SpeciesName</td> 
+            <td>@Current.BreedName</td>
+			<td><a href="/7/@Current.Id">Edit</a></td>
+			<td><a href="/7/delete/@Current.Id">Delete</a></td>
+        </tr>
+        @EndEach
+    </tbody>
+</table>
+@EndSection
